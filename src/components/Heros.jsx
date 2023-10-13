@@ -1,7 +1,8 @@
 import React from 'react'
-
 // components
 import Navbar from './Navbar'
+// image
+import person from "/public/person.png"
 
 const Heros = () => {
   return (
@@ -15,7 +16,7 @@ const Heros = () => {
                 <p className='mt-2'>Stay home, stay safe</p>
             </div>
             <div className=' w-1/5 mr-20'>
-                <img src="../../public/person.png" alt="" className='' />
+                <img src={person} alt="" className='' />
             </div>
         </header>
     </div>
